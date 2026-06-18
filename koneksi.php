@@ -17,7 +17,8 @@ class Koneksi {
             die("Koneksi ke database gagal: " . $this->db->connect_error);
         } else {
             // Menampilkan pesan sukses jika berhasil terkoneksi
-            echo "Koneksi berhasil! Anda telah terhubung ke database '" . $this->database . "'.<br>";
+            // echo "Koneksi berhasil! Anda telah terhubung ke database '" . $this->database . "'.<br>";
+            //jika berhasil maka jadi blank putih, jika gagal muncul pesan error
         }
     }
 }
