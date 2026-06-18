@@ -18,7 +18,7 @@ class PendaftaranKedinasan extends Pendaftaran {
 
     // Mengimplementasikan metode abstrak hitungTotalBiaya (dikongkritkan dahulu)
     public function hitungTotalBiaya() {
-        return $this->biayaPendaftaranDasar;
+        return $this->biayaPendaftaranDasar * 1.25;
     }
 
     // Mengimplementasikan metode abstrak tampilkanInfoJalur (dikongkritkan dahulu)
